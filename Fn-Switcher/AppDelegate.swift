@@ -8,6 +8,7 @@
 
 import Cocoa
 
+
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
@@ -20,7 +21,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     @IBAction func switchClicked(_ sender: Any) {
-        print("SwitchClicked");
+
+        let task = Process()
+        task.launchPath = "/usr/bin/osascript"
+        task.arguments = ["/Users/yasinguzel/Documents/Fn-Switcher/Fn-Switcher.scpt"]
+        ///Users/yasinguzel/Documents/Fn-Switcher
+        
+        task.launch()
+
     }
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
