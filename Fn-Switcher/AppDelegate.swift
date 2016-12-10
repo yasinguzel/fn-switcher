@@ -18,10 +18,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @IBAction func quitClicked(_ sender: NSMenuItem) {
         NSApplication.shared().terminate(self)
     }
+    
+    @IBAction func switchClicked(_ sender: Any) {
+        print("SwitchClicked");
+    }
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
-        statusItem.title = "Fn-Switcher"
+        let icon = NSImage(named: "statusIcon")
+        statusItem.image = icon
         statusItem.menu = statusMenu
     }
 

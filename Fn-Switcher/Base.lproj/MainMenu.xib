@@ -20,10 +20,16 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu id="q9N-9a-6GA">
             <items>
-                <menuItem title="Quit" id="nS3-GR-lTj">
+                <menuItem title="Switch" id="nS3-GR-lTj">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="quitClicked:" target="Voe-Tx-rLC" id="SEq-Ma-oZd"/>
+                        <action selector="switchClicked:" target="Voe-Tx-rLC" id="wg4-BI-5VU"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Quit" id="4ec-xZ-Zxe">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClicked:" target="Voe-Tx-rLC" id="pk7-KT-tE8"/>
                     </connections>
                 </menuItem>
             </items>
