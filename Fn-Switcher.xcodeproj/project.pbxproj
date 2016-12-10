@@ -492,6 +492,7 @@
 				20777F891DFBD96700FC7C0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20777F8A1DFBD96700FC7C0C /* Build configuration list for PBXNativeTarget "Fn-SwitcherTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +501,7 @@
 				20777F8C1DFBD96700FC7C0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20777F8D1DFBD96700FC7C0C /* Build configuration list for PBXNativeTarget "Fn-SwitcherUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +510,7 @@
 				20777F8F1DFBD96700FC7C0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
