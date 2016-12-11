@@ -28,6 +28,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         ///Users/yasinguzel/Documents/Fn-Switcher
         
         task.launch()
+        
 
     }
 
