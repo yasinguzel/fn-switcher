@@ -2,7 +2,7 @@
 This OSX Menubar app for change your function keys to special keys.
 
 <p align="center">
-  <img style="float: right;" src="Images/Projects/Fn.png" alt="Fn-Switcher Logo" style="width:256px;height:256px;"/>
+  <img style="float: right;" src="Images/icon.png" alt="Fn-Switcher Logo" />
 </p>
 
 On a typical Mac the function keys have a special meaning. They are used to control the volume, the screen's brightness or iTunes. But some applications, IDEs use the normal function keys. Fn-Switcher allows you to easily use your function keys in the applications that you need them.
