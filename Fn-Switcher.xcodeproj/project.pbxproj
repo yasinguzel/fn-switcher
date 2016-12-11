@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		20777F681DFBD96700FC7C0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20777F671DFBD96700FC7C0C /* AppDelegate.swift */; };
-		20777F6A1DFBD96700FC7C0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20777F691DFBD96700FC7C0C /* Assets.xcassets */; };
 		20777F6D1DFBD96700FC7C0C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20777F6B1DFBD96700FC7C0C /* MainMenu.xib */; };
 		20777F781DFBD96700FC7C0C /* Fn_SwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20777F771DFBD96700FC7C0C /* Fn_SwitcherTests.swift */; };
 		20777F831DFBD96700FC7C0C /* Fn_SwitcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20777F821DFBD96700FC7C0C /* Fn_SwitcherUITests.swift */; };
+		20B84A801DFD77870025BE5A /* AppleScript in Resources */ = {isa = PBXBuildFile; fileRef = 20B84A7F1DFD77870025BE5A /* AppleScript */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +34,6 @@
 /* Begin PBXFileReference section */
 		20777F641DFBD96700FC7C0C /* Fn-Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fn-Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20777F671DFBD96700FC7C0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20777F691DFBD96700FC7C0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20777F6C1DFBD96700FC7C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		20777F6E1DFBD96700FC7C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20777F731DFBD96700FC7C0C /* Fn-SwitcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fn-SwitcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +42,7 @@
 		20777F7E1DFBD96700FC7C0C /* Fn-SwitcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fn-SwitcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20777F821DFBD96700FC7C0C /* Fn_SwitcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fn_SwitcherUITests.swift; sourceTree = "<group>"; };
 		20777F841DFBD96700FC7C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20B84A7F1DFD77870025BE5A /* AppleScript */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppleScript; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +77,7 @@
 				20777F761DFBD96700FC7C0C /* Fn-SwitcherTests */,
 				20777F811DFBD96700FC7C0C /* Fn-SwitcherUITests */,
 				20777F651DFBD96700FC7C0C /* Products */,
+				20B84A7F1DFD77870025BE5A /* AppleScript */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				20777F671DFBD96700FC7C0C /* AppDelegate.swift */,
-				20777F691DFBD96700FC7C0C /* Assets.xcassets */,
 				20777F6B1DFBD96700FC7C0C /* MainMenu.xib */,
 				20777F6E1DFBD96700FC7C0C /* Info.plist */,
 			);
@@ -226,7 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20777F6A1DFBD96700FC7C0C /* Assets.xcassets in Resources */,
+				20B84A801DFD77870025BE5A /* AppleScript in Resources */,
 				20777F6D1DFBD96700FC7C0C /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
