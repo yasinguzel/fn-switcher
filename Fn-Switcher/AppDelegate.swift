@@ -13,6 +13,7 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var statusMenu: NSMenu!
+    let userName = NSUserName()
 
     let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
     
@@ -24,12 +25,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         let task = Process()
         task.launchPath = "/usr/bin/osascript"
-        task.arguments = ["/Users/yasinguzel/Documents/Fn-Switcher/Fn-Switcher.scpt"]
-        ///Users/yasinguzel/Documents/Fn-Switcher
-        
+        task.arguments = ["/Users/"+userName+"/Documents/Fn-Switcher/Fn-Switcher.scpt"]
         task.launch()
-        
-
     }
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
