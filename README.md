@@ -13,6 +13,8 @@ Watching series,movies or YouTube videos and want to use special keys ? Just cli
 
 *Add shortcut for switch.
 *Solve privacy problem.
+*Edit scpt path.
+*Edit app icon.
 
 ##Install
 

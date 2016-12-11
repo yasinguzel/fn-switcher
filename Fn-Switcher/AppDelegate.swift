@@ -25,7 +25,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         let task = Process()
         task.launchPath = "/usr/bin/osascript"
-        task.arguments = ["/Users/"+userName+"/Documents/Fn-Switcher/Fn-Switcher.scpt"]
+        task.arguments = ["/Users/"+userName+"/Documents/Fn-Switcher/Fn-Switcher.scpt"]//this line will edited.
         task.launch()
     }
 
