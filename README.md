@@ -11,10 +11,9 @@ Watching series,movies or YouTube videos and want to use special keys ? Just cli
 
 ##Features
 
-*Add shortcut for switch.
-*Solve privacy problem.
-*Edit scpt path.
-*Edit app icon.
+* Add shortcut for switch.
+* Solve privacy problem.
+* Edit scpt path.
 
 ##Install
 
