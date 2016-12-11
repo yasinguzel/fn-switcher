@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		206E5F871DFDE98600265BDA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 206E5F861DFDE98600265BDA /* README.md */; };
 		20777F681DFBD96700FC7C0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20777F671DFBD96700FC7C0C /* AppDelegate.swift */; };
 		20777F6D1DFBD96700FC7C0C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20777F6B1DFBD96700FC7C0C /* MainMenu.xib */; };
 		20777F781DFBD96700FC7C0C /* Fn_SwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20777F771DFBD96700FC7C0C /* Fn_SwitcherTests.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		206E5F861DFDE98600265BDA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		20777F641DFBD96700FC7C0C /* Fn-Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fn-Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20777F671DFBD96700FC7C0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20777F6C1DFBD96700FC7C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 		20777F5B1DFBD96700FC7C0C = {
 			isa = PBXGroup;
 			children = (
+				206E5F861DFDE98600265BDA /* README.md */,
 				20777F661DFBD96700FC7C0C /* Fn-Switcher */,
 				20777F761DFBD96700FC7C0C /* Fn-SwitcherTests */,
 				20777F811DFBD96700FC7C0C /* Fn-SwitcherUITests */,
@@ -252,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				206E5F871DFDE98600265BDA /* README.md in Sources */,
 				20777F681DFBD96700FC7C0C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
