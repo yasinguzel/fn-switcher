@@ -16,10 +16,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let userName = NSUserName()
     let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
     
+    
     @IBAction func quitClicked(_ sender: NSMenuItem) {
         NSApplication.shared().terminate(self)
     }
-    
+
     @IBAction func switchClicked(_ sender: Any) {
         let task = Process()
         task.launchPath = "/usr/bin/osascript"
@@ -33,6 +34,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         icon?.isTemplate = true
         statusItem.image = icon
         statusItem.menu = statusMenu
+
+        
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
