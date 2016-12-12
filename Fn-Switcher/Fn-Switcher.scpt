@@ -1,3 +1,4 @@
+//This script for change the prefences.
 tell application "System Preferences"
 reveal anchor "keyboardTab" of pane "com.apple.preference.keyboard"
 end tell

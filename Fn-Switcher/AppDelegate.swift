@@ -13,22 +13,22 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var statusMenu: NSMenu!
-    let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
+    let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength) //created Status Item
 
 
     @IBAction func quitClicked(_ sender: NSMenuItem) {
-        NSApplication.shared().terminate(self)
+        NSApplication.shared().terminate(self) //When user quit clicked,application close.
     }
 
     @IBAction func switchClicked(_ sender: Any) {
-        let task = Process()
-        task.launchPath = "/usr/bin/osascript"
-        let filePath = Bundle.main.path(forResource:"Fn-Switcher", ofType: "scpt")
-        task.arguments = [filePath!]//this line will edited.
-        task.launch()
+        let task = Process() //Created process.
+        task.launchPath = "/usr/bin/osascript" //Call necessary script
+        let filePath = Bundle.main.path(forResource:"Fn-Switcher", ofType: "scpt") //Find AppleScript in the project folder.
+        task.arguments = [filePath!]
+        task.launch() //Launch the AppleScript file
     }
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+
         let icon = NSImage(named: "statusIcon")
         icon?.isTemplate = true
         statusItem.image = icon
@@ -36,7 +36,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
     }
     
 }
