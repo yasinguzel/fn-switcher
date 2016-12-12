@@ -7,7 +7,7 @@ This OSX Menubar app for change your function keys to special keys.
 
 On a typical Mac the function keys have a special meaning. They are used to control the volume, the screen's brightness or iTunes. But some applications, IDEs use the normal function keys. Fn-Switcher allows you to easily use your function keys in the applications that you need them.
 
-Watching series,movies or YouTube videos and want to use special keys ? Just click and Fn-Switcher enable your special keys.
+Watching series,movies or YouTube videos and want to use special keys ? Just click and Fn-Switcher enable your special keys. Its FREE and OPEN SOURCE.
 
 ##Features
 
