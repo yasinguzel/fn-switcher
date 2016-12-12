@@ -17,10 +17,7 @@ Watching series,movies or YouTube videos and want to use special keys ? Just cli
 
 ##Install
 
-1. Moved to Application
-<p align="left">
-  <img style="float: right;" src="Images/HowToUpload/MoveTheApplicationsFolder.png" alt="Fn-Switcher Logo"/>
-</p>
+1. Download the latest version from the [releases tab] (https://github.com/yasinguzel/Fn-Switcher/releases/tag/1.0.0) and move the application folder.
 
 2. System Prefences > Security & Privacy
 <p align="left">
