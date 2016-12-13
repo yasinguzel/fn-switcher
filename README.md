@@ -39,3 +39,7 @@ Watching series,movies or YouTube videos and want to use special keys ? Just cli
   <img style="float: right;" src="Images/HowToUpload/SelectAndAddApp.png" alt="Fn-Switcher Logo"/>
 </p>
 
+##Extras
+
+* Rakun : http://www.rakun.me/c/bAfAW49wFum2xBGJz
+
