@@ -11,9 +11,9 @@ Watching series,movies or YouTube videos and want to use special keys ? Just cli
 
 ##Features
 
-* Add shortcut for switch.
-* Solve privacy problem.
-* Automatically start at login
+- [ ] Add shortcut for switch.
+- [ ] Solve privacy problem.
+- [ ] Automatically start at login
 
 ##Install
 
