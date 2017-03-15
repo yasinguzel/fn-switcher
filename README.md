@@ -9,13 +9,13 @@ On a typical Mac the function keys have a special meaning. They are used to cont
 
 Watching series,movies or YouTube videos and want to use special keys ? Just click and Fn-Switcher enable your special keys. Its FREE and OPEN SOURCE.
 
-##Features
+## Features
 
 - [ ] Add shortcut for switch.
 - [ ] Solve privacy problem.
 - [ ] Automatically start at login
 
-##Install
+## Install
 
 1. Download the latest version from the [releases tab] (https://github.com/yasinguzel/Fn-Switcher/releases/tag/1.0.0) and move the application folder.
 
@@ -39,7 +39,7 @@ Watching series,movies or YouTube videos and want to use special keys ? Just cli
   <img style="float: right;" src="Images/HowToUpload/SelectAndAddApp.png" alt="Fn-Switcher Logo"/>
 </p>
 
-##Extras
+## Extras
 
 * Rakun : http://www.rakun.me/c/bAfAW49wFum2xBGJz
 
